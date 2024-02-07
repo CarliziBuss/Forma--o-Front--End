@@ -1,0 +1,27 @@
+h1 {
+    color:purple;
+    padding-bottom: 10px;
+    font-family:'Franklin Gothic Medium'; 
+    font-size: 45px;
+    text-align: center;
+}
+p{
+    color:rgb(241, 166, 166); 
+    background-color: rgb(44, 2, 2);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 27px;
+    text-align: center;
+}
+img {
+   width:25%;
+   margin: auto;
+    display:block;
+}
+ul{
+    color:rgb(245, 69, 0);
+    background-color: rgb(10, 16, 65);
+    font-family:'Verdana';
+    display: inline-block;
+    width: 30%;
+  
+}

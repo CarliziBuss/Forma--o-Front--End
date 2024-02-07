@@ -1,0 +1,314 @@
+/* External */
+body {
+    padding-bottom: 500px;
+}
+h3 {
+   color:green; 
+}
+p{
+    color:rgb(32, 30, 34);
+}
+/* Classes */
+
+.paragrafos {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+
+}
+
+#titulo_exclusivo {
+    background-color: blueviolet;
+    color: aqua;
+    padding: 10px;
+
+}
+/* Ordem das regras  */
+h2 {
+    border-bottom: 2px solid red;
+
+}
+/* class ponto  */
+.titulo {
+    border-bottom: 5px solid blue;
+
+}
+/* id jogo da velha #  */
+#algum-titulo {
+
+    border-bottom: 8px solid yellowgreen;
+}
+
+/* nome das cores */
+.color-name {
+    color:crimson;
+
+}
+/* HEX */
+.hex {
+    color: #55a398;
+}
+.hex2 {
+    color: #c8e13f;
+}
+/* afundando em rex  */
+.simple-rex {
+    color:#333;
+
+}
+.simple-rex-2 {
+    color:rgb(255, 254, 255);
+}
+.rgb {
+    color: rgb(255,0,0);
+}
+.mixed-rgb {
+    color: rgb(12,127,220);
+
+}
+/* RGBA */
+.rgba{
+    color: rgba(0,24,150,0.4);
+}
+/* HSL */
+.hsl {
+    color: hsl(100,80%,50%);
+}
+.hsl2 {
+    color: hsl(55,50%,60%);
+}
+/* BACKGROUND */
+.bg {
+    background-color: #000;
+    color: yellow
+}
+.bg2{
+    background-color: rgb(200,80,30);
+    color: blue;
+}
+
+/* cor de  fundo com opacidade  */
+.bg-opa {
+    background-color: green;
+    opacity: 0.2;
+}
+/* RGBA com opacidade */
+.rgba-opa {
+    background-color: rgba(90,100,20,0.2);
+    color: #000
+}
+/* BG imagem */
+.bg-image {
+    background-image: url(../img/nature.jpg);
+    padding: 10px;
+    color: #fff;   
+}
+/* Centralizar bg image  m*/
+.not-center-bg,
+.center-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/bridge.jpg);
+}
+.center-bg {
+    background-position: center;
+    background-size: cover;
+}
+/* Largura (width) e altura (height)  */
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+
+}
+/* PADDING */
+.not-padding,
+.padding {
+    background-color: #111;
+    color:#fff
+}
+.padding {
+    background-color: #333;
+    padding:20px;  
+}
+/* Padding individualizado */
+.padding-ind {
+    background-color: #222;
+    color:#fff;
+    padding-top:5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;    
+}
+
+
+/* SHORTHAND PADDING  */
+.shortharnd-padding{
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+.shortharnd-padding-2 {
+    background-color: #555;
+    padding: 10px 20px; 
+}
+/* padding com width */
+.without-border-box {
+    background-color: #444;
+    color:#fff;
+    width: 400px;
+    padding: 50px; 
+}
+.border-box {
+    background-color: #5d2626;
+    color:#fff;
+    width: 400px;
+    padding: 50px; 
+    box-sizing: border-box;
+}
+/* BORDER tamanho (px), aspecto e cor  */
+
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+.border-2 {
+    border: 2px dotted #55a398;
+    padding: 30px;
+
+}
+
+/* <!-- BORDAS INDIVIDUAIS border- onde? --> */
+.border-left {
+
+    padding: 10px;
+    border-left: 5px solid #55a398;
+    border-bottom: 30px solid #5d2626;
+}
+.border-bottom {
+    border-bottom: 30px solid #5d2626;
+    padding: 10px;
+}
+/* <!-- ARREDONDAMENTO DE BORDA borda-radius px--> */
+.border-redonda {
+    border: 4px solid #333;
+    background-color: #c8e13f;
+    color: #050000;
+    padding: 15px;
+    border-radius: 15px;
+}
+.border-redonda-2 {
+    background-color: #c8e13f;
+    color: #050000;
+    padding: 15px;
+    border-radius: 25px;
+}
+/* MARGEM */
+.margem {
+    margin: 10px;
+    background-color: #c8e13f;
+}
+.margem-top {
+    margin-top: 20px;
+    background-color: #464f13;
+    padding: 10px;
+}
+.margem-shorthand {
+    margin: 5px 10px 15px 20px;
+    background-color: #effca7;
+    padding: 10px
+}
+/* BOX MODEL */
+.box-model {
+    margin: 10px;
+    padding: 15px 25px;
+    border: 3px solid #630101;
+    border-radius: 15px;
+    width: 400px;
+    box-sizing: border-box;
+}
+.box-model-bord {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #c8e13f;
+    border-radius: 30px;
+    width: 400px;
+    box-sizing: border-box;
+}
+/* Alinhamento de texto  */
+.text-align {
+    text-align: right;
+}
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid #555
+}
+/* TEXT DECORATION */
+.underline {
+    text-decoration: underline;
+}
+.line-trough {
+    text-decoration: line-through;
+}
+/* tirar o risco de baixo de um link  */
+.remove-underline {
+    text-decoration: none;
+    color:#630101
+}
+/* TEXTE TRANSFORME */
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+/* latter spacing */
+.spacing {
+    letter-spacing: 5px;
+}
+/* FONTES */
+.serif-font {
+    font-family: georgia;
+}
+.sans-serif {
+    font-family: helvetica;
+}
+.monospace{
+    font-family: 'Courier New'
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+
+}
+/* FONTE Style */
+.italic{
+    font-style: italic
+}
+.oblic {
+    font-style: oblique;
+}
+/* Peso da fonte WEIGTH */
+.peso-fino{
+    font-weight: 100;
+}
+.peso-grosso {
+    font-weight: 600;
+}
+/* DIPLAY */
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}

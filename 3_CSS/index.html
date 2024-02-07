@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        p{
+           color: gold;
+           font-size: 26px;
+
+        }
+
+    </style>
+    <!-- CSS: Cascading Style Sheets -->
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/lists.css "/>  
+</head>
+<body>
+    <!--  Inline CSS  -->
+    <h1 style="color:brown">Mudar cor com o Inline</h1>
+    <p style="color:green">Na cor verde agora! </p>
+
+
+
+    <!-- Multiplas regras de CSS separadas por ponto e virgulas -->
+
+    <h1 style="color:purple; font-size: 30px; border-bottom:1px solid red"
+    >Mudar cor e tamanho da fonte</h1>
+
+    <!-- Internal CSS tag style
+    colocamos todos os elementos na tag head p{color:red;}-->
+    <!-- nome da tag abre e fecha chaves e dentro coloca todas as regras atribuindo com 
+    com dois pontos e ponto e virgula para adicionar uma outra regra -->
+    <p>Eu fui estilizado pelo intenal</p>
+    <p>Mais um paragrafo </p>
+    <p>E outro paragrafo</p>
+
+    <!-- External CSS -->
+    <h3>Meu título verde</h3>
+
+    <!-- Ordem de CSS -->
+    <p style="color:red">Ordem do CSS</p>
+    <p>Ordem do CSS 2</p>
+
+    <!-- Multiplos CSS -->
+    <ul>
+        <li>Banana</li> 
+        <li>Maça</li>
+        <li>Uva</li>
+        <li>Morango</li>
+    </ul>
+    <!-- CLASSES .  -->
+    <p class="paragrafos">Algum texto em classe</p>
+    <p class="paragrafos">Algum texto em classe 2</p>
+    <p class="paragrafos">Algum texto em classe 3</p>
+
+    <!--ID- único nao repede em outro elemento #<nome_do_id> -->
+    
+    <h1 id="titulo_exclusivo">Este é um titulo com ID </h1>
+
+    <!-- Multiplas regras h2 -->
+
+    <h2 id="algum-titulo" class="titulo">Algum texto 1</h2>
+    <h2 class="titulo">Algum texto 1</h2>
+    <h2>Algum texto 1</h2>
+
+    <!-- Nome de cores -->
+
+    <p class="color-name">Nome de cores </p>
+
+    <!-- HEX -->
+    <p class="hex">Texto com HEX</p>
+    <p class="hex2">Texto com HEX2</p>
+
+    <!-- mais sibr REX  -->
+
+    <p class="simple-hex"> hex simplificado</p>
+    <p class="simple-rex-2">hex simplificado 2</p>
+
+    <p class="rgb">Este foi estilizado com RGB</p>
+    <p class="mixed-rgb">Este foi estilizado com RGB</p>
+    <!-- RGBA -->
+    <p class="rgba">Texto com RGBA</p>
+
+    <!-- HSL -->
+    <p class="hsl">Este foi estilizado com HSL</p>
+    <p class="hsl2">Este exemplo dois</p>
+    <!-- background-color -->
+    <p class="bg">Mude meu background</p>
+    <h2 class="bg2">Outra variação de BG </h2>
+
+    <!-- opacidade no background bg  -->
+    <div class="bg-opa">
+        <p>Estou aqui!</p>
+    </div>
+        
+    <!-- RGBA com opacidade -->
+    div <div class="rgba-opa">
+        <h1>Precisa estar visivel</h1>
+    </div>
+
+ <!-- Background imagem  -->
+    <h1 class="bg-image">Este título tem uma imagem</h1>
+ 
+
+<!-- Centralizar imagem de BG  -->
+
+    <div class="not-center-bg"></div>
+    <div class="center-bg"></div>    
+
+<!-- Height and width -->
+
+<div class="height-width"></div>
+<div class="height-width-2"></div>
+
+<!-- padding -->
+    <div class="not-padding">Este nao tem pedding </div>
+    <div class="padding">Este tem padding</div>
+
+<!-- Lados individuais  padding-->
+   <p class="padding-ind">Este paragrafo tem padding diferentes </p>
+
+
+<!-- SHORTHAND PADDING -->
+    <p class="shortharnd-padding">Algum texto </p>
+    <p class="shortharnd-padding-2">Algum texto 2 </p>
+
+<!-- BOX-SIZING BORDE-BOX PADDING COM WIDHT -->
+<div class="without-border-box">
+    <p>Para algum conteudo</p>
+</div>
+<div class="border-box">
+    <p>Algum conteudo 2</p>
+</div>
+
+<!-- BORDER tamanho, aspecto, cor -->
+
+<div class="border">Borda</div>
+<div class="border-2">Borda dois</div>
+
+<!-- BORDAS INDIVIDUAIS border- onde? -->
+<p class="border-left">Borda a esquerda</p>
+<p class="border-bottom">Borda inferior</p>
+
+<!-- ARREDONDAMENTO DE BORDA -->
+
+<h1 class="border-redonda">Borda arredondada</h1>
+<h1 class="border-redonda-2">Borda arredondada 2</h1>
+
+<!-- MARGEM  -->
+<div class="margem">Eu tenho margem</div>
+<div class="margem-top">Eu tenho margem no topo </div>
+<div class="margem-shorthand">Eu tenho margem ultilizando shorthand</div>
+
+<!-- BOX MODEL -->
+<div class="box-model">
+    <p>Tenho todas as propriedades do box model</p>
+</div>
+
+<div class="box-model-bord">
+    <p>Tenho todas ao propriedades box model sem borda</p>
+</div>
+
+
+<!-- ALINHAMENTO DE TEXTO  text-align- center- right (direita)-->
+<p class="text-align">Alinhado a direita. </p>
+<div class="container-center">
+    <h2>Estamos centralizados</h2>
+    <p>Outro texto</p>
+</div>
+
+<!-- TEXTO DECORATIVO decoration -->
+<p class="underline">Eu tenho um underline</p>
+<p class="line-trough">Eu tenho um risco</p>
+<a href="#" class="remove-underline">Sem underline</a>
+
+<!-- TRANSFORMAÇÃO DE TEXTO  -->
+<!-- uppercase ou lowercase ( letras maiúsculas ou mnúsculas) -->
+
+<p class="upper">Este texto é um texto em caixa alta</p>
+<p class="lower">ESTE É EM LOWER MINÚSCULA</p>
+ 
+<!-- Espaçamento de letras latter-spacing: 5px -->
+<h2 class="spacing">Eu tenho um espaçamento maior.</h2>
+
+<!-- FONTES  font-family-->
+
+<p class="serif-font">Uma fonte diferente Serif</p>
+<p class="sans-serif">Uma fonte diferente Sans</p>
+<p class="monospace">Uma fonte diferente Monospace</p>
+<p class="cursive">Uma fonte diferente Cursiva</p>
+<p class="fantasy">Uma fonte diferente Fantasy</p>
+
+<!-- FONTE STYLE  -->
+<h1 class="oblic">Estou em oblico </h1>
+<h1 class="italic">Estou em itálico </h1>
+
+
+<!-- PESO DA FONTE  -->
+<h3 class="peso-fino">EUsou mais fino</h3>
+<h3 class="peso-grosso">EUsou mais grosso</h3>
+
+<!-- DISPLAY -->
+<div class="inline">A</div>
+<div class="inline">B</div>
+<div class="inline">C</div>
+</body>
+</html>
+
