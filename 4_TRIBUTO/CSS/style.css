@@ -62,3 +62,11 @@ html {
     font-weight: bold;
     text-align: center;
 }
+.direitos {
+    text-align: center;
+    font-style: italic;
+    color: dimgray; 
+    padding: 25px;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
