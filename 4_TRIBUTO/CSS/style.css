@@ -70,3 +70,22 @@ html {
     margin-bottom: 0px;
     font-size: 10px;
 }
+/* Menu lateral */
+.botao{
+    font-size: 15px;
+    border: solid 1px rgb(23, 23, 32);
+    border-radius: 5px;
+    color: brgb(23, 23, 32)lue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    align-items: flex-end;
+    display: flex;
+    margin:10px 0px;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: rgb(23, 23, 32);
+    color: white;
+    transform: scale(1.2)
+}
+
