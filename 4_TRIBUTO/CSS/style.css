@@ -5,7 +5,7 @@ html {
 
 .container {
     max-width: 1100px;
-    background-color: #fff;
+    background-color: #a4a3a3;
     position: relative;
     margin: 50px auto; 
     padding: 20px 50px;
@@ -16,12 +16,16 @@ html {
 /* header */
 .header {
     text-align: center;
+    background-color: rgba(6, 0, 0, 0.674);
+    padding: 25px 0px;
+    color: #b4bbfe;
 }
 .main-title {
     font-size:  40px;   
 }
 .main-paragraph {
     font-style: italic;
+    color: bisque;
 }
 /* Imagem destaque */
 .featured-image {
